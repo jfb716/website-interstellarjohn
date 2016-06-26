@@ -2,12 +2,15 @@ html {
     background-color: #959595;
 }
 
+.page_title {
+    text-align: center;
+}
 
 .job {
     float: left;
     margin: 0 15px 15px 0;
     padding: 10px;
-    height: 150px;
+    height: 160px;
     border: 1px solid black;
     width: 320px;
     border-radius: 5px;
@@ -16,7 +19,7 @@ html {
 
 .job img {
     border-radius: 3px;
-    brder: 1px solid #000000;
+    border: 1px solid #000000;
     box-shadow: 2px 2px 2px #000000;
     margin-right: 5px;
 }
@@ -32,7 +35,6 @@ h3 {
 }
 
 p {
-    text-indent: 22px;
     letter-spacing: 1px;
     line-height: 5px;
     word-spacing: 1px;
@@ -48,6 +50,12 @@ p {
     margin-left: 60px;
     color: #000000;
     border: 1px solid #000000;
+}
+
+.john {
+    background-color: #33343c;
+    color: aliceblue;
+    text-align: center;
 }
 
 .ub {
