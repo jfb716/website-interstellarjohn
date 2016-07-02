@@ -1,6 +1,7 @@
 html {
-    background: #000000 url(earth.jpg) no-repeat fixed top left;
-   
+    background: url(astro_2.jpg) center top no-repeat, url(earth_2.jpg) center center no-repeat, url(purp.png) center bottom no-repeat;
+    background-color: #000000;
+    background-size: contain;
 }
 
 body {
