@@ -26,11 +26,11 @@ p {
     display: block;
     margin: 8px;
     text-align: center;
-    margin-top: 12px;
+    margin-top: 30px;
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
     font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 1px;
     line-height: 10px;
     word-spacing: 1px;
@@ -38,16 +38,16 @@ p {
 }
 
 .john img {
-    border-radius: 49.9px;
+    border-radius: 55px;
     border: 4px solid #ffffff;
     box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
-    top: -40px;
-    height: 75px;
-    width: 75px;
+    top: -65px;
+    height: 100px;
+    width: 100px;
 }
 
 .john h2 {
@@ -63,7 +63,7 @@ p {
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
     font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 1px;
     line-height: 10px;
     word-spacing: 1px;
@@ -79,7 +79,7 @@ p {
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
     font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 1px;
     line-height: 10px;
     word-spacing: 1px;
@@ -109,7 +109,7 @@ p {
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
     font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 1px;
     line-height: 10px;
     word-spacing: 1px;
@@ -132,7 +132,7 @@ p {
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
     font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 1px;
     line-height: 10px;
     word-spacing: 1px;

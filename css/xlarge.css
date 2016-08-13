@@ -1,11 +1,11 @@
 html {
-    background: url(astro_2.jpg) center top no-repeat, url(earth_2.jpg) center center no-repeat, url(purp.png) center bottom no-repeat;
     background-color: #000000;
     background-size: contain;
 }
 
 body {
     padding-top: 30px;
+    text-align: center;
 }
 
 
@@ -24,30 +24,31 @@ p {
     position: relative;
     padding: 12px;
     display: block;
-    margin: 8px;
+    margin: auto;
     text-align: center;
-    margin-top: 12px;
+    margin-top: 65px;
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
     font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 23px;
     letter-spacing: 1px;
     line-height: 10px;
     word-spacing: 1px;
     opacity: .6;
+    max-width: 988px;
 }
 
 .john img {
-    border-radius: 49.9px;
+    border-radius: 65px;
     border: 4px solid #ffffff;
     box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
-    top: -40px;
-    height: 75px;
-    width: 75px;
+    top: -100px;
+    height: 125px;
+    width: 125px;
 }
 
 .john h2 {
@@ -57,33 +58,38 @@ p {
 .job {
     background-color: white;
     padding: 12px;
-    display: block;
+    display: inline-block;
     margin: 8px;
     text-align: center;
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
     font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 23px;
     letter-spacing: 1px;
     line-height: 10px;
     word-spacing: 1px;
     opacity: .6;
+    width: 300px;
+    height: 940px;
 }
 
 .ub {
     background-color: white;
     padding: 12px;
     display: block;
-    margin: 8px;
+    margin: auto;
+    margin-top: 8px;
     text-align: center;
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
     font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 23px;
     letter-spacing: 1px;
     line-height: 10px;
     word-spacing: 1px;
     opacity: .6;
+    max-width: 988px;
+    vertical-align: top;
 }
 
 .ub h4 {
@@ -103,17 +109,20 @@ p {
 .skills {
     background-color: white;
     padding: 12px;
-    display: block;
+    display: inline-block;
     margin: 8px;
     text-align: center;
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
     font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 23px;
     letter-spacing: 1px;
     line-height: 10px;
     word-spacing: 1px;
     opacity: .6;
+    width: 300px;
+    height: 940px;
+    vertical-align: top;
 }
 
 .skills h4 {
@@ -126,17 +135,20 @@ p {
 .certs {
     background-color: white;
     padding: 12px;
-    display: block;
+    display: inline-block;
     margin: 8px;
     text-align: center;
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
     font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 23px;
     letter-spacing: 1px;
     line-height: 10px;
     word-spacing: 1px;
     opacity: .6;
+    width: 300px;
+    height: 940px;
+    vertical-align: top;
 }
 
 .certs h4 {

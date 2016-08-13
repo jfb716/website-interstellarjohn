@@ -1,0 +1,146 @@
+html {
+    background-color: #000000;
+    background-size: contain;
+}
+
+body {
+    padding-top: 30px;
+}
+
+
+h2 {
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+p {
+    font-weight: 400;
+}
+
+
+.john {
+    background-color: white;
+    position: relative;
+    padding: 12px;
+    display: block;
+    margin: 8px;
+    text-align: center;
+    margin-top: 65px;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    word-spacing: 1px;
+    opacity: .6;
+}
+
+.john img {
+    border-radius: 65px;
+    border: 4px solid #ffffff;
+    box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -100px;
+    height: 125px;
+    width: 125px;
+}
+
+.john h2 {
+    margin-top: 45px;
+}
+
+.job {
+    background-color: white;
+    padding: 12px;
+    display: block;
+    margin: 8px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    word-spacing: 1px;
+    opacity: .6;
+}
+
+.ub {
+    background-color: white;
+    padding: 12px;
+    display: block;
+    margin: 8px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    word-spacing: 1px;
+    opacity: .6;
+}
+
+.ub h4 {
+    float: left;
+    margin: 0;
+    font-weight: 400;
+}
+
+.job h4 {
+    float: left;
+    margin: 0;
+    font-weight: 400;
+    position: absolute;
+}
+
+
+.skills {
+    background-color: white;
+    padding: 12px;
+    display: block;
+    margin: 8px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    word-spacing: 1px;
+    opacity: .6;
+}
+
+.skills h4 {
+    float: left;
+    margin: 0;
+    font-weight: 400;
+    position: absolute;
+}
+
+.certs {
+    background-color: white;
+    padding: 12px;
+    display: block;
+    margin: 8px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    word-spacing: 1px;
+    opacity: .6;
+}
+
+.certs h4 {
+    float: left;
+    margin: 0;
+    font-weight: 400;
+    position: absolute;
+}
