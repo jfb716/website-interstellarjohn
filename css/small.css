@@ -145,3 +145,65 @@ p {
     font-weight: 400;
     position: absolute;
 }
+
+.logo_ub {
+    height: 30px;
+    width: 40px;
+}
+
+.logo_fb {
+    height: 30px;
+    width: 30px;
+}
+
+.logo_nbcu {
+    height: 30px;
+    width: 40px;
+}
+
+.logo_sync {
+    height: 30px;
+    width: 30px;
+}
+
+.logo_le {
+    height: 30px;
+    width: 30px;
+}
+
+.logo_iab {
+    height: 50px;
+    width: 60px;
+}
+
+.logo_sa {
+    height: 50px;
+    width: 60px;
+}
+
+.logo_nyu {
+    height: 30px;
+    width: 60px;
+}
+
+
+.logo_skills {
+    height:  60px;
+    width: 60px;
+    opacity: .8;
+}
+
+.logo_cert {
+    height:  60px;
+    width: 60px;
+}
+
+.logo_work {
+    height:  60px;
+    width: 60px;
+    opacity: .8;
+}
+
+
+
+

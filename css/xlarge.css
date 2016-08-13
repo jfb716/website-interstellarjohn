@@ -65,13 +65,22 @@ p {
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
     font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
-    font-size: 23px;
+    font-size: 18px;
     letter-spacing: 1px;
-    line-height: 10px;
+    line-height: 6px;
     word-spacing: 1px;
     opacity: .6;
-    width: 300px;
+    width: 324px;
     height: 940px;
+    box-sizing: border-box;
+}
+
+.job h4 {
+    float: left;
+    margin: 0;
+    font-weight: 400;
+    position: absolute;
+    line-height: 16px;
 }
 
 .ub {
@@ -99,13 +108,6 @@ p {
     font-weight: 400;
 }
 
-.job h4 {
-    float: left;
-    margin: 0;
-    font-weight: 400;
-    position: absolute;
-}
-
 
 .skills {
     background-color: white;
@@ -116,14 +118,15 @@ p {
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
     font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
-    font-size: 23px;
+    font-size: 18px;
     letter-spacing: 1px;
-    line-height: 10px;
+    line-height: 16px;
     word-spacing: 1px;
     opacity: .6;
-    width: 300px;
+    width: 324px;
     height: 940px;
     vertical-align: top;
+    box-sizing: border-box;
 }
 
 .skills h4 {
@@ -142,14 +145,16 @@ p {
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
     font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
-    font-size: 23px;
+    font-size: 18px;
     letter-spacing: 1px;
-    line-height: 10px;
+    line-height: 16px;
     word-spacing: 1px;
     opacity: .6;
-    width: 300px;
+    width: 324px;
     height: 940px;
     vertical-align: top;
+    box-sizing: border-box;
+    
 }
 
 .certs h4 {
@@ -157,4 +162,64 @@ p {
     margin: 0;
     font-weight: 400;
     position: absolute;
+}
+
+.logo_ub {
+    height: 50px;
+    width: 70px;
+    border-radius: 3px;
+}
+
+.logo_fb {
+    height: 40px;
+    width: 40px;
+}
+
+.logo_nbcu {
+    height: 40px;
+    width: 50px;
+}
+
+.logo_sync {
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+}
+
+.logo_le {
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+}
+
+.logo_iab {
+    height: 70px;
+    width: 80px;
+}
+
+.logo_sa {
+    height: 90px;
+    width: 110px;
+}
+
+.logo_nyu {
+    height: 62px;
+    width: 92px;
+}
+
+.logo_skills {
+    height:  60px;
+    width: 60px;
+    opacity: .8;
+}
+
+.logo_cert {
+    height:  60px;
+    width: 60px;
+}
+
+.logo_work {
+    height:  60px;
+    width: 60px;
+    opacity: .8;
 }
