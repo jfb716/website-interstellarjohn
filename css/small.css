@@ -188,22 +188,26 @@ p {
 
 
 .logo_skills {
-    height:  60px;
-    width: 60px;
+    height:  40px;
+    width: 40px;
     opacity: .8;
 }
 
 .logo_cert {
-    height:  60px;
-    width: 60px;
+    height:  40px;
+    width: 40px;
 }
 
 .logo_work {
-    height:  60px;
-    width: 60px;
+    height:  40px;
+    width: 40px;
     opacity: .8;
 }
 
-
+.logo_edu {
+    height:  40px;
+    width: 40px;
+    opacity: .8;
+}
 
 
