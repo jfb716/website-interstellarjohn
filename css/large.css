@@ -35,7 +35,48 @@ p {
     line-height: 10px;
     word-spacing: 1px;
     opacity: .6;
-    height: 540px;
+}
+
+.websites {
+    background-color: white;
+    padding: 12px;
+    display: block;
+    margin: 8px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    word-spacing: 1px;
+    opacity: .6;
+}
+
+.websites h4 {
+    margin: 0;
+    font-weight: 400;
+}
+
+.home {
+    background-color: white;
+    padding: 12px;
+    display: block;
+    margin: 8px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    word-spacing: 1px;
+    opacity: .6;
+}
+
+.home h4 {
+    margin: 0;
+    font-weight: 400;
 }
 
 .profile img {
@@ -49,6 +90,48 @@ p {
     top: -100px;
     height: 125px;
     width: 125px;
+    transition: transform 2s ease-in-out;
+}
+
+.profile:hover img{
+    transform: rotateY(1440deg);
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.site_list {
+    text-align: center;
+}
+
+.site_1 {
+    display: inline-block;
+    text-align: left;
+    line-height: 35px;
+
+}
+
+.site_2 {
+    display: inline-block;
+    text-align: left;
+    line-height: 35px;
+    margin-left: 20px;
 }
 
 .john h2 {
@@ -72,10 +155,8 @@ p {
 }
 
 .job h4 {
-    float: left;
     margin: 0;
     font-weight: 400;
-    position: absolute;
 }
 
 .ub {
@@ -95,7 +176,6 @@ p {
 }
 
 .ub h4 {
-    float: left;
     margin: 0;
     font-weight: 400;
 }
@@ -118,10 +198,8 @@ p {
 }
 
 .skills h4 {
-    float: left;
     margin: 0;
     font-weight: 400;
-    position: absolute;
 }
 
 .certs {
@@ -141,10 +219,8 @@ p {
 }
 
 .certs h4 {
-    float: left;
     margin: 0;
     font-weight: 400;
-    position: absolute;
 }
 
 .logo_ub {
@@ -221,7 +297,7 @@ p {
 }
 
 .nyc_logo img {
-    width: 280px;
+    max-width: 170px;
     opacity: .7;
 }
 
@@ -232,7 +308,7 @@ p {
 }
 
 .gi_logo img {
-    width: 100px;
+    max-width: 80px;
 }
 
 .blo {
@@ -243,7 +319,7 @@ p {
 }
 
 .blo_logo img {
-    width: 280px;
+    max-width: 170px;
     opacity: .7;
 }
 
@@ -254,8 +330,14 @@ p {
     font-weight: 800;
 }
 
-.home_logo img {
+.logo_home {
     height: 50px;
     width: 60px;
     opacity: .7;
+}
+
+.logo_www {
+    height:  40px;
+    width: 40px;
+    opacity: .9;
 }
