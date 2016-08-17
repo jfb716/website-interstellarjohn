@@ -46,7 +46,7 @@ p {
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 #a0a0a0, 0 1px 1px 0 #a0a0a0;
     font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 1px;
     line-height: 10px;
     word-spacing: 1px;
@@ -105,14 +105,24 @@ a:active {
 .site_1 {
     display: inline-block;
     text-align: left;
-    line-height: 20px;
+    line-height: 30px;
+    font-size: 13px;
+    width: 135px;
+    margin-left: -40px;
+    text-decoration: underline;
 }
 
 .site_2 {
     display: inline-block;
     text-align: left;
-    line-height: 20px;
-    margin-left: 20px;
+    line-height: 30px;
+    font-size: 13px;
+    width: 135px;
+    text-decoration: underline;
+}
+
+.site-1, .site_2 ul, li {
+    list-style: none;
 }
 
 .profile img {
@@ -292,13 +302,11 @@ a:active {
     opacity: .9;
 }
 .nyc {
-    position: absolute;
     margin: auto;
     padding: 0;
     letter-spacing: .5px;
     word-spacing: .5px;
     font-size: 17px;
-    left: 0;
 }
 
 .nyc_logo img {
@@ -313,7 +321,10 @@ a:active {
     letter-spacing: .5px;
     word-spacing: .5px;
     font-size: 17px;
-    margin-top: 120px;
+    border: 1px solid grey;
+    width: 150px;
+    border-radius: 3px;
+    box-shadow: 0 1px 10px 0 #a0a0a0 inset;
 }
 
 .gi_logo img {
@@ -321,7 +332,6 @@ a:active {
 }
 
 .blo {
-    position: absolute;
     padding-top: 31px;
     margin: auto;
     padding: 0;
@@ -335,11 +345,15 @@ a:active {
     opacity: .7;
 }
 
-.title {
+.title_company {
     font-family: Lucida Grande, Tahoma;
     color: #3b5998;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 800;
+}
+
+.title {
+    line-height: 20px;
 }
 
 .logo_home {

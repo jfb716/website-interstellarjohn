@@ -58,6 +58,11 @@ p {
     max-width: 972px;
 }
 
+.websites h4 {
+    margin: 0;
+    font-weight: 400;
+}
+
 .home {
     background-color: white;
     position: relative;
@@ -75,6 +80,11 @@ p {
     word-spacing: 1px;
     opacity: .6;
     max-width: 972px;
+}
+
+.home h4 {
+    margin: 0;
+    font-weight: 400;
 }
 
 .profile img {
