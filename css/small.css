@@ -18,6 +18,9 @@ p {
     font-weight: 400;
 }
 
+.profile {
+    display: none;
+}
 
 .john {
     background-color: white;
