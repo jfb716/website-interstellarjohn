@@ -1,215 +1,32 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="author" content="John F. Black">
-        <meta name="description" content="Resume for John F. Black">
-        <meta name="keywords" content="John, John Black, John F Black, John F. Black, John Francis Black, Resume, Synacor, Facebook, NBC, NBCUniversal, LocalEdge, Buffalo, New York, New York City, NYC, Grand Island, University at Buffalo, UB, Technical Support, Ad Operations, AdOps, AdTech">
-        <title>InterstellarJohn</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" media="(max-width:499px)" href="css/small.css">
-        <link rel="stylesheet" media="(min-width:500px) and (max-width:732px)" href="css/med.css">
-        <link rel="stylesheet" media="(min-width:732px) and (max-width:1050px)" href="css/large.css">
-        <link rel="stylesheet" media="(min-width:1051px)" href="css/xlarge.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
-    </head>
-    <body>
-        <main>
-            <section class="john">
-                <figure class="profile">
-                    <img src="resources/john.jpg" alt="Profile Pic">
-                </figure>
-                <h2>John F. Black</h2>
-                <p class="title">Technical Support Engineer @ <span class="title_company">facebook</span></p>
-                <br>
-                <hr>
-            </section>
-            <section class="websites">
-                <h4 class="cat">Websites</h4>
-                <figure>
-                    <img src="resources/www.png" alt="Websites" class="logo_www">
-                </figure>
-                <hr>
-                <br>
-                <div class="site_list">
-                <div class="site_1">
-                    <ul>
-                       <li><a href="http://www.johnfblack.com">John F. Black</a></li>
-                       <li><a href="http://www.spacejohn.com">SpaceJohn</a></li>
-                       <li><a href="http://www.blackholejohn.com">BlackHoleJohn</a></li>
-                       <li><a href="http://www.galaxyjohn.com">GalaxyJohn</a></li>
-                    </ul>
-                </div>
-                <div class="site_2">
-                    <ul>
-                       <li><a href="http://www.universejohn.com">UniverseJohn</a></li>
-                       <li><a href="http://www.supernovajohn.com">SupernovaJohn</a></li>
-                       <li><a href="http://www.galacticjohn.com">GalacticJohn</a></li>
-                       <li><a href="http://www.blackopsjohn.com">BlackOpsJohn</a></li>
-                    </ul>
-                </div>
-                <hr>
-                </div>
-            </section>
-            <section class="home">
-                <h4 class="cat">Home</h4>
-                <figure>
-                    <img src="resources/home_logo.png" alt="Home" class="logo_home">
-                </figure>
-                <hr>
-                <div class="nyc">
-                <figure class="nyc_logo">
-                    <img src="resources/nyc_logo.png" alt="NYC Skyline">
-                </figure>
-                <p>New York City</p>
-                </div>
-                <div class="gi">
-                <p>Grand Island</p>
-                <figure class="gi_logo">
-                    <img src="resources/gi_logo.jpg" alt="Grand Island">
-                </figure>
-                </div>
-                <div class="blo">
-                <figure class="blo_logo">
-                    <img src="resources/blo_logo.jpg" alt="Buffalo Skyline">
-                </figure>
-                <p>Buffalo</p>
-                </div>
-                <hr>
-            </section>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Route Test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">AngularJS</a>
+        </div>
 
-            <section class="ub">
-                <h4 class="cat">Education</h4>
-                <figure>
-                    <img src="resources/edu_logo.png" alt="Skills" class="logo_edu">
-                </figure>
-                <hr>
-                <br>
-                <figure>
-                    <img src="resources/ub.gif" alt="UB" class="logo_ub">
-                </figure>
-                <h2>University at Buffalo</h2>
-                <p>June 2010</p>
-                <p>B.S. Business Administration</p>
-                <br>
-                <hr>
-            </section>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="#/second"><i></i> Second</a></li>
+        </ul>
+      </div>
+      </nav>
+    </header>
 
-            <section class="job">
-                <h4 class="cat">Experience</h4>
-                <figure>
-                    <img src="resources/work_logo.png" alt="Work" class="logo_work">
-                </figure>
-                <hr>
-                <br>
-                <figure>
-                    <img src="resources/fb.png" alt="Facebook" class="logo_fb">
-                </figure>
-                <h2>Facebook</h2>
-                <p>February 2015 - Present</p>
-                <p>Technical Support Engineer</p>
-                <br>
-                <hr>
-                <br>
-                <figure>
-                    <img src="resources/nbcu.png" alt="NBCUniversal" class="logo_nbcu">
-                </figure>
-                <h2>NBCUniversal</h2>
-                <p>May 2013 - February 2015</p>
-                <p>Manager, Digital Ad Operations</p>
-                <br>
-                <hr>
-                <br>
-                <figure>
-                    <img src="resources/sync.jpg" alt="Synacor" class="logo_sync">
-                </figure>
-                <h2>Synacor</h2>
-                <p>August 2011 - May 2013</p>
-                <p>Ad Operations Specialist</p>
-                <br>
-                <hr>
-                <br>
-                <figure>
-                    <img src="resources/le.png" alt="LocalEdge" class="logo_le">
-                </figure>
-                <h2>LocalEdge</h2>
-                <p>June 2010 - August 2011</p>
-                <p>Digital Analyst</p>
-                <br>
-                <hr>
-            </section>
+    <div class="container">
 
-            <section class="skills">
-                <h4 class="cat">Skills</h4>
-                <figure>
-                    <img src="resources/skills.png" alt="Skills" class="logo_skills">
-                </figure>
-                <hr>
-                <br>
-                <p>Digital Advertising</p>
-                <p>Advertising Operations</p>
-                <p>Technical Support</p>
-                <br>
-                <hr>
-                <br>
-                <p>SQL</p>
-                <p>HTTP</p>
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>Git</p>
-                <p>Tableau</p>
-                <p>Terminal</p>
-                <p>GitHub</p>
-                <br>
-                <hr>
-                <br>
-                <p>DFP</p>
-                <p>FreeWheel</p>
-                <p>Mocean</p>
-                <p>LiveRail</p>
-                <p>SalesForce</p>
-                <br>
-                <hr>
-                <br>
-            </section>
-            
-            <section class="certs">
-                <h4 class="cat">Certifications</h4>
-                <figure>
-                    <img src="resources/cert_logo.ico" alt="Certificates" class="logo_cert">
-                </figure>
-                <hr>
-                <br>
-                <figure>
-                    <img src="resources/iab.jpg" alt="IAB" class="logo_iab">
-                </figure>
-                <h2>Interactive Ad Bureau</h2>
-                <p>Digital Ad Operations Certification</p>
-                <br>
-                <hr>
-                <br>
-                <figure>
-                    <img src="resources/scrum.jpg" alt="IAB" class="logo_sa">
-                </figure>
-                <h2>Scrum Alliance</h2>
-                <p>SCRUM Product Owner Certification</p>
-                <br>
-                <hr>
-                <br>
-                <figure>
-                    <img src="resources/nyu.jpg" alt="IAB" class="logo_nyu">
-                </figure>
-                <h2>New York University</h2>
-                <p>Certificate in Project Managment</p>
-                <br>
-                <hr>
-                <br>
-            </section>
-        </main>
-    </body>
+      <div ng-view></div>
+
+    </div>
+  </body>
 </html>
-
